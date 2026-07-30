@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portofolio Benaya Arlen Kundimang: pengembangan website, database, aplikasi mobile, dan prototipe chatbot.">
+    <meta name="theme-color" content="#11120f">
+    <meta property="og:title" content="Benaya Arlen Kundimang — Web Developer">
+    <meta property="og:description" content="Website portofolio pengembangan web, database, aplikasi mobile, dan chatbot.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="og-editorial.png">
+    <link rel="icon" href="assets/benaya-photo.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Benaya Arlen Kundimang — Web Developer</title>
+  </head>
+  <body>
+    <main>
+      <div class="editorial-grid" aria-hidden="true"></div>
+      <div class="entrance-curtain" aria-hidden="true">
+        <span>Benaya Arlen / Portfolio</span><i></i>
+      </div>
+      <div class="scroll-progress" aria-hidden="true"><span></span></div>
+      <div class="noise" aria-hidden="true"></div>
+
+      <header class="site-header">
+        <a class="brand" href="#home" aria-label="Kembali ke beranda">
+          <span class="brand-mark">BA</span><span>BENAYA ARLEN</span>
+        </a>
+        <nav aria-label="Navigasi utama">
+          <a href="#about">Tentang</a>
+          <a href="#work">Proyek</a>
+          <a href="#experience">Pengalaman</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+        <a class="header-cta" href="downloads/Benaya-Arlen-CV.pdf" download>
+          Unduh CV <span aria-hidden="true">↗</span>
+        </a>
+      </header>
+
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy" data-reveal>
+          <div class="eyebrow"><span></span> Portopolio</div>
+          <p class="hero-kicker">WEB DEVELOPER · JAKARTA</p>
+          <h1>BENAYA ARLEN</h1>
+          <p class="hero-intro">
+            Saya merancang dan mengembangkan website, serta aplikasi yang mudah digunakan dalam kebutuhan bisnis dari antarmuka hingga database.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Lihat proyek <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="mailto:benayaarlen8@gmail.com">Hubungi saya <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="holo-stage" aria-label="Globe portofolio interaktif">
+            <div class="globe-sphere" tabindex="0" aria-label="Globe interaktif. Scroll untuk zoom dan tarik ke kiri atau kanan untuk memutar 360 derajat.">
+              <div class="holo-globe"><canvas class="globe-canvas" width="600" height="600" aria-hidden="true"></canvas></div>
+              <div class="globe-points" role="group" aria-label="Informasi pada globe"></div>
+            </div>
+            <div class="globe-toolbar" aria-label="Kontrol globe">
+              <button type="button" data-globe-control="zoom-out" aria-label="Perkecil globe">−</button>
+              <output aria-label="Tingkat zoom globe">100%</output>
+              <button type="button" data-globe-control="zoom-in" aria-label="Perbesar globe">+</button>
+              <button class="globe-reset" type="button" data-globe-control="reset">Reset</button>
+            </div>
+            <aside class="globe-information" aria-live="polite">
+              <div class="globe-information-heading"><span>01</span><p>Domisili</p></div>
+              <h2>Jakarta, Indonesia</h2>
+              <p class="globe-information-copy">Tempat saya belajar, bekerja, dan mengembangkan produk digital.</p>
+              <footer>Jakarta · Indonesia</footer>
+            </aside>
+            <p class="globe-instruction">Scroll di globe untuk zoom · tarik ke samping untuk memutar 360°</p>
+          </div>
+          <div class="visual-caption"><span>PORTOFOLIO INTERAKTIF</span><span>SCROLL · DRAG · HOVER</span></div>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about">
+        <div class="section-label" data-reveal><span>01</span><p>TENTANG SAYA</p></div>
+        <div class="about-grid" data-reveal>
+          <div class="portrait-card" data-tilt>
+            <div class="portrait-orbit" aria-hidden="true"></div>
+            <img src="assets/benaya-photo.png" alt="Benaya Arlen Kundimang" width="478" height="359">
+            <div class="portrait-tag"><span></span> JAKARTA, INDONESIA</div>
+          </div>
+          <div class="about-copy">
+            <p class="display-copy"> Tentang Saya</p>
+            <div class="about-details">
+              <p>Fokus saya adalah menerjemahkan kebutuhan pengguna menjadi solusi digital yang nyata. 
+                Saya memiliki dorongan yang kuat untuk terus belajar, menyerap ilmu baru, dan beradaptasi dengan teknologi terkini. 
+                Dari merancang antarmuka hingga mengintegrasikan database, saya selalu antusias menghadapi tantangan. 
+                Saya siap berkolaborasi, menerima feedback, dan berkembang bersama tim untuk menciptakan solusi digital yang lebih baik setiap harinya.</p>
+              <dl>
+                <div><dt>PENDIDIKAN</dt><dd>Informatika, UKRIDA</dd></div>
+                <div><dt>DOMISILI</dt><dd>Jakarta</dd></div>
+                <div><dt>BAHASA</dt><dd>Indonesia · English</dd></div>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="stats-grid" data-reveal>
+          <article><strong>05</strong><span>Proyek yang ditampilkan</span></article>
+          <article><strong>03</strong><span>Kelompok keahlian dalam CV</span></article>
+          <article><strong>01</strong><span>Pengalaman organisasi</span></article>
+          <article><strong>2026</strong><span>Peran web terbaru</span></article>
+        </div>
+
+        <div class="technology-showcase" data-reveal>
+          <header class="technology-showcase-head">
+            <div><span>Keahlian</span><h3>Teknologi yang saya gunakan</h3></div>
+          </header>
+          <div class="technology-groups">
+            <article class="technology-group">
+              <h4>Web</h4>
+              <div class="technology-items">
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#777bb4" aria-hidden="true"><img src="assets/tech/php.svg" alt=""></span><span>PHP</span></div>
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#e34f26" aria-hidden="true"><img src="assets/tech/html5.svg" alt=""></span><span>HTML</span></div>
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#1572b6" aria-hidden="true"><img src="assets/tech/css.svg" alt=""></span><span>CSS</span></div>
+                <div class="technology-item"><span class="technology-logo-frame is-dark" style="--technology-color:#f7df1e" aria-hidden="true"><img src="assets/tech/javascript.svg" alt=""></span><span>JavaScript</span></div>
+              </div>
+            </article>
+            <article class="technology-group">
+              <h4>Data &amp; AI</h4>
+              <div class="technology-items">
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#4479a1" aria-hidden="true"><img src="assets/tech/mysql.svg" alt=""></span><span>MySQL</span></div>
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#3776ab" aria-hidden="true"><img src="assets/tech/python.svg" alt=""></span><span>Python</span></div>
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#5a17ee" aria-hidden="true"><img src="assets/tech/rasa.svg" alt=""></span><span>Rasa</span></div>
+              </div>
+            </article>
+            <article class="technology-group">
+              <h4>Tools</h4>
+              <div class="technology-items">
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#23a8f2" aria-hidden="true"><img src="assets/tech/vscode.svg" alt=""></span><span>Visual Studio Code</span></div>
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#3ddc84" aria-hidden="true"><img src="assets/tech/androidstudio.svg" alt=""></span><span>Android Studio</span></div>
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#ff6600" aria-hidden="true"><img src="assets/tech/xml.svg" alt=""></span><span>XML</span></div>
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#f24e1e" aria-hidden="true"><img src="assets/tech/figma.svg" alt=""></span><span>Figma</span></div>
+                <div class="technology-item"><span class="technology-logo-frame" style="--technology-color:#00c4cc" aria-hidden="true"><img src="assets/tech/canva.svg" alt=""></span><span>Canva</span></div>
+                <div class="technology-item"><span class="technology-fallback" aria-hidden="true">✂</span><span>CapCut</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-shell" id="work">
+        <div class="section-heading" data-reveal>
+          <div class="section-label"><span>02</span><p>PROYEK SAYA</p></div>
+          <h2>PROYEK YANG DIBUAT</h2>
+        </div>
+        
+        <div class="project-list">
+          <div class="section-label">><p>PROYEK PERUSAHAAN</p></div>
+          <article class="project-card" data-reveal>
+            
+            <div class="project-index">/01</div>
+            <div class="project-media" data-tilt>
+              <img src="assets/onda-website.png" alt="Tampilan halaman utama website PT Onda Printing" width="669" height="329" loading="lazy">
+              <span>JAN 2026 — SEKARANG</span>
+            </div>
+            <div class="project-copy">
+              <p class="project-type">Website perusahaan &amp; sistem pemesanan</p>
+              <h3>PT Onda Printing</h3>
+              <p>Mengembangkan dan memelihara website perusahaan dengan alur pemesanan terintegrasi, katalog produk, serta pengelolaan data berbasis MySQL.</p>
+              <ul aria-label="Teknologi PT Onda Printing"><li>PHP</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>MySQL</li></ul>
+            </div>
+          </article>
+        <div class="academic-list">
+          <div class="section-label">><p>PROYEK AKADEMIK</p></div>
+          <article class="academic-card is-featured" data-reveal>
+            <header class="academic-card-header"><span>/01</span><p>PROYEK KAMPUS</p></header>
+            <div class="academic-card-body">
+              <div class="academic-media academic-phone-gallery" data-tilt>
+                <figure><img src="assets/asmon-dashboard.jpeg" alt="Dashboard administrator ASMON yang menampilkan ringkasan dan daftar aset" width="720" height="1600" loading="lazy"><figcaption>Dashboard</figcaption></figure>
+                <figure><img src="assets/asmon-qr-scan.jpeg" alt="Pilihan pencarian aset ASMON melalui QR Code atau nomor seri" width="720" height="1600" loading="lazy"><figcaption>QR &amp; serial number</figcaption></figure>
+                <figure><img src="assets/asmon-borrowed.jpeg" alt="Status aset yang sedang dipinjam pada aplikasi ASMON" width="720" height="1600" loading="lazy"><figcaption>Borrowing status</figcaption></figure>
+              </div>
+              <div class="academic-copy">
+                <p class="project-type">Asset Monitoring · Aplikasi mobile</p><h3>ASMON</h3>
+                <p>Aplikasi mobile untuk mencatat dan memantau aset, memeriksa kondisi serta ketersediaan barang, dan mengelola peminjaman melalui QR Code atau nomor seri. Sistem menyediakan alur berbeda untuk administrator dan pengguna.</p>
+                <ul aria-label="Fitur dan teknologi ASMON"><li>Mobile Application</li><li>QR Code</li><li>Asset Tracking</li><li>Role-based Access</li></ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="academic-card is-featured" data-reveal>
+            <header class="academic-card-header"><span>/02</span><p>PROYEK KAMPUS</p></header>
+            <div class="academic-card-body">
+              <div class="academic-media academic-web-gallery" data-tilt>
+                <figure><img src="assets/pokestore-showcase.png" alt="Tampilan katalog kartu pada website PokeStore" width="1279" height="590" loading="lazy"><figcaption>Marketplace catalog</figcaption></figure>
+              </div>
+              <div class="academic-copy">
+                <p class="project-type">Marketplace kartu Pokémon · Website</p><h3>PokeStore</h3>
+                <p>Website marketplace kartu Pokémon untuk mendukung proses jual, beli, dan barter. Fitur utamanya mencakup katalog dan pencarian produk, profil penjual, penambahan stok, proses checkout, pilihan pembayaran, serta ringkasan penjualan.</p>
+                <ul aria-label="Fitur dan teknologi PokeStore"><li>PHP</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="academic-card" data-reveal>
+            <header class="academic-card-header"><span>/03</span><p>SEP 2024 — 2025</p></header>
+            <div class="academic-card-body">
+              <div class="academic-media academic-media-single" data-tilt>
+                <figure><img src="assets/medical-chatbot.png" alt="Tampilan percakapan prototipe chatbot InfoMedic" width="322" height="245" loading="lazy"><figcaption>Chat interface</figcaption></figure>
+              </div>
+              <div class="academic-copy">
+                <p class="project-type">Prototipe medical chatbot</p><h3>InfoMedic</h3>
+                <p>Membangun prototipe chatbot informasi kesehatan menggunakan Rasa dan Python, dilengkapi dataset tanya-jawab medis serta antarmuka percakapan interaktif.</p>
+                <ul aria-label="Fitur dan teknologi InfoMedic"><li>Python</li><li>Rasa</li><li>NLP</li><li>VS Code</li></ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section-shell">
+        <div class="section-label" data-reveal><span>03</span><p>KEAHLIAN</p></div>
+        <div class="skills-grid" data-reveal>
+          <div class="skills-title"><p>TOOLS &amp;</p><h2>TECH<br><em>STACK.</em></h2></div>
+          <div class="skills-list">
+            <article><span>01</span><div><h3>Web Development</h3><p>PHP · HTML · CSS · JavaScript</p></div><b aria-hidden="true">↗</b></article>
+            <article><span>02</span><div><h3>Database</h3><p>MySQL · Perancangan data</p></div><b aria-hidden="true">↗</b></article>
+            <article><span>03</span><div><h3>AI &amp; Programming</h3><p>Python · Rasa · XML</p></div><b aria-hidden="true">↗</b></article>
+            <article><span>04</span><div><h3>Design &amp; Tools</h3><p>Figma · Canva · VS Code · Android Studio</p></div><b aria-hidden="true">↗</b></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-shell" id="experience">
+        <div class="section-heading" data-reveal>
+          <div class="section-label"><span>04</span><p>JEJAK PERJALANAN</p></div>
+          <h2>PENGALAMAN &amp;<br><em>PENDIDIKAN.</em></h2>
+        </div>
+        <div class="timeline">
+          <article data-reveal><div class="timeline-date">JAN 2026 — SEKARANG</div><div><p>WEB DEVELOPMENT</p><h3>PT Onda Printing</h3><span>Pengembangan website, sistem pemesanan, dan pemeliharaan fitur.</span></div><b>01</b></article>
+          <article data-reveal><div class="timeline-date">SEP 2023 — 2024</div><div><p>MEDIA TEAM</p><h3>BEM FTIK UKRIDA</h3><span>Dokumentasi kegiatan, editing konten, dan pembuatan aset visual.</span></div><b>02</b></article>
+          <article data-reveal><div class="timeline-date">2022 — SEKARANG</div><div><p>S1 INFORMATIKA</p><h3>Universitas Kristen Krida Wacana</h3><span>Mempelajari pengembangan perangkat lunak, data, dan teknologi informasi.</span></div><b>03</b></article>
+          <article data-reveal><div class="timeline-date">2019 — 2022</div><div><p>JURUSAN IPA</p><h3>SMA Makarios</h3><span>Landasan pendidikan sains sebelum melanjutkan studi Informatika.</span></div><b>04</b></article>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="contact" data-reveal>
+        <div class="contact-glow" aria-hidden="true"></div>
+        <p class="contact-kicker">TERBUKA UNTUK BERDISKUSI</p>
+        <h2>MARI TERHUBUNG DAN<br><em>BICARAKAN PELUANG.</em></h2>
+        <a class="contact-email" href="mailto:benayaarlen8@gmail.com">benayaarlen8@gmail.com <span aria-hidden="true">↗</span></a>
+        <div class="contact-links">
+          <a href="https://wa.me/6281280474474">WhatsApp</a>
+          <a href="downloads/Benaya-Arlen-CV.pdf" download>Unduh CV</a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <a href="#home">KEMBALI KE ATAS ↑</a>
+      </footer>
+    </main>
+  </body>
+</html>
